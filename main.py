@@ -6,7 +6,7 @@ weight = float(input("Please enter your weight in lbs: "))
 height = float(input("Please enter your height in inches: "))
 
 BMI = weight / (height * height) * 703
-BMIformatted = format(BMI,".1f")
+BMI_formatted = format(BMI,".1f")
 print()
 
 if BMI >= 18.5 and BMI <= 25:
